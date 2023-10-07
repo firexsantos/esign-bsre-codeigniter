@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FirmanSantosa\\ESignBsrePhp\\": "src"
+            "FirmanSantosa\\ESignBsreCodeIgniter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FirmanSantosa\\ESignBsrePhp\\Tests\\": "tests"
+            "FirmanSantosa\\ESignBsreCodeIgniter\\Tests\\": "tests"
         }
     },
     "scripts": {
