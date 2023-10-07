@@ -1,11 +1,11 @@
 {
-    "name": "firexsantos/e-sign-bsre-php",
+    "name": "firexsantos/esign-bsre-codeigniter",
     "description": "Package E-Sign BSrE untuk memudahkan penggunaan E-Sign BSrE (Balai Sertifikasi Elektronik) API dari BSSN (Badan Sandi dan Siber Negara)",
     "keywords": [
         "firexsantos",
-        "e-sign-bsre-php"
+        "esign-bsre-codeigniter"
     ],
-    "homepage": "https://github.com/firexsantos/e-sign-bsre-php",
+    "homepage": "https://github.com/firexsantos/esign-bsre-codeigniter",
     "license": "MIT",
     "type": "library",
     "authors": [

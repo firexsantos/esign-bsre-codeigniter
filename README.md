@@ -40,7 +40,7 @@ Kode yang disediakan ada beberapa yaitu tanda tangan digital invisible, verifika
 
 - Tanda tangan digital invisible 
 ```php
-$esign = new FirmanSantosa\ESignBsrePhp\ESignBSrE($baseUrl, $username, $password);
+$esign = new FirmanSantosa\ESignBsreCodeIgniter\ESignBSrE($baseUrl, $username, $password);
 $response = $esign->setFile($file, $filename)->sign($nik, $passphrase);
 $response->getStatus(); //Get status response (int) - 404, 200 etc
 $response->getErrors(); //Get error response
@@ -49,7 +49,7 @@ $response->getData(); //Get data as blob pdf
 
 - Verifikasi tanda tangan digital  
 ```php
-$esign = new FirmanSantosa\ESignBsrePhp\ESignBSrE($baseUrl, $username, $password);
+$esign = new FirmanSantosa\ESignBsreCodeIgniter\ESignBSrE($baseUrl, $username, $password);
 $response = $esign->setFile($file, $filename)->verification();
 $response->getStatus(); //Get status response (int)
 $response->getErrors(); //Get error response
