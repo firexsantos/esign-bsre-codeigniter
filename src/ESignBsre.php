@@ -1,6 +1,6 @@
 <?php
 
-namespace DiskominfotikBandaAceh\ESignBsrePhp;
+namespace FirmanSantosa\ESignBsreCodeIgniter;
 
 use GuzzleHttp\Client as GuzzleClient;
 use PhpParser\Node\Stmt\TryCatch;

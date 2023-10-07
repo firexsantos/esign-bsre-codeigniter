@@ -1,6 +1,6 @@
 <?php
 
-namespace DiskominfotikBandaAceh\ESignBsrePhp;
+namespace FirmanSantosa\ESignBsreCodeIgniter;
 
 class ESignBsreResponse
 {
